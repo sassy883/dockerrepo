@@ -19,7 +19,7 @@ phases:
       - echo "Tagging Docker image..."
       - docker tag ecr-repo:2.3 590183710695.dkr.ecr.us-east-1.amazonaws.com/ecr-repo:2.3
       - echo "Pushing Docker image to Amazon ECR..."
-      - docker push 590183710695.dkr.ecr.us-east-1.amazonaws.com/ecr-repo:$IMAGE_TAG
+      - docker push 590183710695.dkr.ecr.us-east-1.amazonaws.com/ecr-repo:2.3
 
 artifacts:
   files:
